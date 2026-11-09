@@ -1,0 +1,16 @@
+# Este archivo va en el contenedor 104, en /etc/systemd/system/uptime-kuma.service
+# Lo explico en docs/09-uptime-kuma.md (apartado 9.8)
+[Unit]
+Description=Uptime Kuma
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/uptime-kuma
+ExecStart=/usr/bin/node server/server.js
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

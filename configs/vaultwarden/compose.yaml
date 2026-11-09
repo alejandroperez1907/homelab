@@ -1,0 +1,14 @@
+# Este archivo va en el contenedor 102, en /opt/vaultwarden/compose.yaml
+# Lo explico en docs/07-vaultwarden.md (apartado 7.8)
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    restart: unless-stopped
+    environment:
+      DOMAIN: "https://vaultwarden.tailxxxxxx.ts.net"
+      SIGNUPS_ALLOWED: "false"
+    volumes:
+      - ./data:/data
+    ports:
+      - "127.0.0.1:8080:80"

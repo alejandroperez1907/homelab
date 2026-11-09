@@ -1,0 +1,15 @@
+# Cosas que Git no tiene que subir nunca
+
+# Copias de seguridad de Proxmox, porque pesan mucho y pueden tener datos privados
+*.tar.zst
+*.vma.zst
+
+# Archivos con contraseñas o claves
+.env
+*.key
+
+# Archivos basura de Windows y de los editores
+Thumbs.db
+desktop.ini
+.vscode/
+*.tmp

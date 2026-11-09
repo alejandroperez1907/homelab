@@ -1,0 +1,14 @@
+# Las listas de bloqueo que tengo en Pi-hole, se añaden en Lists con el botón Add blocklist
+# Lo explico en docs/06-pihole.md (apartado 6.12)
+
+# StevenBlack, anuncios y malware (la pone el instalador)
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+# HaGeZi Pro++, anuncios, rastreadores, telemetría y phishing
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
+
+# HaGeZi TIF, malware, estafas y phishing
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt
+
+# HaGeZi DoH, servidores de DNS cifrado para que nadie se salte Pi-hole
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh.txt
