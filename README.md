@@ -79,7 +79,7 @@ homelab/
 
 ## Lo que me falta
 
-Me falta un disco dedicado exclusivamente a las copias de seguridad automáticas de los contenedores.
+Me falta instalar un disco dedicado exclusivamente a las copias de seguridad automáticas de los contenedores.
 
 ## Sobre los datos
 
