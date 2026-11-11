@@ -79,7 +79,7 @@ homelab/
 
 ## Lo que me falta
 
-Me falta un disco USB externo para hacer copias de seguridad automáticas de los contenedores y para sacar las películas del SSD
+Me falta un disco dedicado exclusivamente a las copias de seguridad automáticas de los contenedores.
 
 ## Sobre los datos
 
